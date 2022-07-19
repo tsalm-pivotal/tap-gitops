@@ -25,8 +25,6 @@ spec:
     spec:
       containers:
       - image: harbor.emea.end2end.link/tap-wkld/pwpusher-ruby-web-app-default@sha256:0618b587bd1ef31414643276183b47956868f24ab81644e16939312d82463e7d
-        ports:
-        - containerPort: 80
         name: workload
         resources: {}
         securityContext:
