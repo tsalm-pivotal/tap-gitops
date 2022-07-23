@@ -24,7 +24,7 @@ spec:
         carto.run/workload-name: pwpusher-ruby-web-app
     spec:
       containers:
-      - image: harbor.emea.end2end.link/tap-wkld/pwpusher-ruby-web-app-default@sha256:3e29a8271b7624565e672ec76a7e74e7df7854ae373b4912d7da9aebbafef558
+      - image: harbor.emea.end2end.link/tap-wkld/pwpusher-ruby-web-app-default@sha256:6226c4a973f32c1de75614fc5e86aacc9228b60363231e0f04c4f2687cfa97d8
         name: workload
         resources: {}
         securityContext:
